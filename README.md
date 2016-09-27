@@ -8,7 +8,7 @@ CSDN: http://blog.csdn.net/rain_butterfly
 
 ---
 #The android architecture of fairies
-Fairy of the project name from the [Ai] (http://baike.baidu.com/subview/2949/5816870.htm), the blue fairy character in the movie, the blue fairy robots could be turned into human beings, let the machine with human's life and emotion, this is what David spend their lives struggling to pursue.
+Fairy of the project name from the [Artificial Intelligence] (http://baike.baidu.com/subview/2949/5816870.htm), the blue fairy character in the movie, the blue fairy robots could be turned into human beings, let the machine with human's life and emotion, this is what David spend their lives struggling to pursue.
 
 The aim of this project, like the blue fairy, want to give others bring enlightenment and reflection on the architecture.
 
