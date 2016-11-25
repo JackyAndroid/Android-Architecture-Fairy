@@ -1,0 +1,52 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.3'
+
+    defaultConfig {
+        applicationId "com.jacky.myapplication"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors {
+        defaultChannel {
+            buildConfigField "int", "flavorFlag", "1"
+        }
+        market1 {
+            buildConfigField "int", "flavorFlag", "1"
+        }
+        market2 {
+            buildConfigField "int", "flavorFlag", "2"
+        }
+        market3 {
+            buildConfigField "int", "flavorFlag", "3"
+        }
+        market4 {
+            buildConfigField "int", "flavorFlag", "4"
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    defaultChannelCompile project(path: ':uikit', configuration: 'defaultChannelRelease')
+    market1Compile project(path: ':uikit', configuration: 'defaultChannelRelease')
+    market2Compile project(path: ':uikit', configuration: 'defaultChannelRelease')
+    market3Compile project(path: ':uikit', configuration: 'defaultChannelRelease')
+    market4Compile project(path: ':uikit', configuration: 'market4Release')
+}
