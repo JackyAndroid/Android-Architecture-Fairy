@@ -9,24 +9,20 @@ android {
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
-        multiDexEnabled false
     }
 
     publishNonDefault true
     productFlavors {
-        defaultChannel {
+        channel1 {
             buildConfigField "int", "flavorFlag", "1"
         }
-        market1 {
-            buildConfigField "int", "flavorFlag", "1"
-        }
-        market2 {
+        channel2 {
             buildConfigField "int", "flavorFlag", "2"
         }
-        market3 {
+        channel3 {
             buildConfigField "int", "flavorFlag", "3"
         }
-        market4 {
+        channel4 {
             buildConfigField "int", "flavorFlag", "4"
         }
     }
@@ -35,9 +31,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    defaultChannelCompile project(path: ':sdk', configuration: 'defaultChannelRelease')
-    market1Compile project(path: ':sdk', configuration: 'defaultChannelRelease')
-    market2Compile project(path: ':sdk', configuration: 'defaultChannelRelease')
-    market3Compile project(path: ':sdk', configuration: 'defaultChannelRelease')
-    market4Compile project(path: ':sdk', configuration: 'market4Release')
+    channel1Compile project(path: ':sdk', configuration: 'channel1Release')
+    channel2Compile project(path: ':sdk', configuration: 'channel2Release')
+    channel3Compile project(path: ':sdk', configuration: 'channel3Release')
+    channel4Compile project(path: ':sdk', configuration: 'channel4Release')
 }

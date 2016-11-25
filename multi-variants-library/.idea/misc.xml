@@ -8,6 +8,9 @@
     <option name="pathToConfigFileJava" value="$USER_HOME$/Downloads/工作文件/eui.xml" />
     <option name="selectedJavaProfile" value="EUI" />
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>

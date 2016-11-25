@@ -2,31 +2,27 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.3"
+    buildToolsVersion '24.0.3'
 
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
-        multiDexEnabled false
     }
 
     publishNonDefault true
     productFlavors {
-        defaultChannel {
+        channel1 {
             buildConfigField "int", "flavorFlag", "1"
         }
-        market1 {
-            buildConfigField "int", "flavorFlag", "1"
-        }
-        market2 {
+        channel2 {
             buildConfigField "int", "flavorFlag", "2"
         }
-        market3 {
+        channel3 {
             buildConfigField "int", "flavorFlag", "3"
         }
-        market4 {
+        channel4 {
             buildConfigField "int", "flavorFlag", "4"
         }
     }
@@ -34,9 +30,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    defaultChannelCompile project(path: ':common', configuration: 'defaultChannelRelease')
-    market1Compile project(path: ':common', configuration: 'defaultChannelRelease')
-    market2Compile project(path: ':common', configuration: 'defaultChannelRelease')
-    market3Compile project(path: ':common', configuration: 'defaultChannelRelease')
-    market4Compile project(path: ':common', configuration: 'market4Release')
+    channel1Compile project(path: ':common', configuration: 'channel1Release')
+    channel2Compile project(path: ':common', configuration: 'channel2Release')
+    channel3Compile project(path: ':common', configuration: 'channel3Release')
+    channel4Compile project(path: ':common', configuration: 'channel4Release')
 }

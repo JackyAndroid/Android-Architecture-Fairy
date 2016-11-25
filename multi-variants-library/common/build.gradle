@@ -2,22 +2,27 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.3"
+    buildToolsVersion '24.0.3'
 
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
-        multiDexEnabled false
     }
 
     publishNonDefault true
     productFlavors {
-        defaultChannel {
+        channel1 {
             buildConfigField "int", "flavorFlag", "1"
         }
-        market4 {
+        channel2 {
+            buildConfigField "int", "flavorFlag", "2"
+        }
+        channel3 {
+            buildConfigField "int", "flavorFlag", "3"
+        }
+        channel4 {
             buildConfigField "int", "flavorFlag", "4"
         }
     }
