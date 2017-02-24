@@ -1,6 +1,5 @@
 # 模块化与组件化--多模块区分编译
 
-> **示例地址：https://github.com/JackyAndroid/Android-Architecture-Fairy/tree/master/multi-variants-library**
 > Android-Architecture-Fairy开源项目重点分析主流技术与架构设计，欢迎star
 
 有时我们一个项目中存在多个产品形态，且不同产品需要不同的编译环境，这是模块化组件化的基础。最普通的情况便是在主模块里面加入渠道统计，但此时如果我们有多个Library，多种产品形态的主模块需要编译多种产品形态的Library，怎么办？先看下[官方文档](http://tools.android.com/tech-docs/new-build-system/user-guide#TOC-Library-Publication)如下：
