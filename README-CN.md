@@ -1,8 +1,6 @@
-### 欢迎在GitHub或者CSDN上关注我
+### 欢迎在GitHub上关注我
 
 GitHub: https://github.com/JackyAndroid
-
-CSDN: http://blog.csdn.net/rain_butterfly
 
 ---
 # Android 架构的仙女
