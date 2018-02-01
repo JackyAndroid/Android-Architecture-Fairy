@@ -1,8 +1,6 @@
-### Welcome to follow me on GitHub or CSDN
+### Welcome to follow me on GitHub
 
 GitHub: https://github.com/JackyAndroid
-
-CSDN: http://blog.csdn.net/rain_butterfly
 
 [中文版文档](https://github.com/JackyAndroid/Android-Architecture-Fairy/blob/master/README-CN.md)
 
