@@ -1,8 +1,3 @@
-### 欢迎在GitHub上关注我
-
-GitHub: https://github.com/JackyAndroid
-
----
 # Android 架构的仙女
 ![BlueFairy](https://github.com/JackyAndroid/Android-Architecture-Fairy/blob/master/Art/BlueFairy.png)
 
