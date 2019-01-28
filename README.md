@@ -4,8 +4,6 @@ GitHub: https://github.com/JackyAndroid
 
 [中文版文档](https://github.com/JackyAndroid/Android-Architecture-Fairy/blob/master/README-CN.md)
 
-![](http://www.jackywang.tech/images/gongzh.png)
-
 ---
 # The android architecture of fairies
 ![BlueFairy](https://github.com/JackyAndroid/Android-Architecture-Fairy/blob/master/Art/BlueFairy.png)
