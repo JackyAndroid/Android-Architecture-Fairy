@@ -1,6 +1,5 @@
-[中文](https://github.com/JackyAndroid/Android-Architecture-Fairy/blob/master/README-CN.md)
+[中文文档](https://github.com/JackyAndroid/Android-Architecture-Fairy/blob/master/README-CN.md)
 
----
 # The android architecture of fairies
 ![BlueFairy](https://github.com/JackyAndroid/Android-Architecture-Fairy/blob/master/Art/BlueFairy.png)
 
