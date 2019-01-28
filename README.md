@@ -1,8 +1,4 @@
-### Welcome to follow me on GitHub
-
-GitHub: https://github.com/JackyAndroid
-
-[中文版文档](https://github.com/JackyAndroid/Android-Architecture-Fairy/blob/master/README-CN.md)
+[中文](https://github.com/JackyAndroid/Android-Architecture-Fairy/blob/master/README-CN.md)
 
 ---
 # The android architecture of fairies
