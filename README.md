@@ -10,5 +10,3 @@ The aim of this project, like the blue fairy, want to give others bring enlighte
 This project focuses on Android mainstream technology of architecture and design analysis extension.
 
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1g2qshh5vc0j30b40b4407.jpg)
-
-![](https://uploader.shimo.im/f/uuQpMClNeZkVc3iC.png!thumbnail)
