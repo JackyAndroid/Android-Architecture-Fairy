@@ -11,4 +11,4 @@ This project focuses on Android mainstream technology of architecture and design
 
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1g2qshh5vc0j30b40b4407.jpg)
 
-![](https://images-cdn.shimo.im/uuQpMClNeZkVc3iC/image.png__thumbnail)
+![](https://uploader.shimo.im/f/uuQpMClNeZkVc3iC.png!thumbnail)
